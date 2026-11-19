@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "Диван кутовий «Скандинавія»",
+    "category": "Дивани та крісла",
+    "price": 24500,
+    "description": "Тканинна оббивка з водовідштовхувальним просоченням, розкладний механізм Єврокнижка.",
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Крісло для відпочинку «Солар»",
+    "category": "Дивани та крісла",
+    "price": 8900,
+    "description": "М'яке ергономічне крісло на ніжках із натурального бука.",
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Стіл обідній «Лофт Дуб»",
+    "category": "Столи",
+    "price": 14200,
+    "description": "Стільниця з масиву дуба (160×90 см) та металеві опори з порошковим покриттям.",
+    "image": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Письмовий стіл «Нордік»",
+    "category": "Столи",
+    "price": 7600,
+    "description": "Компактний робочий стіл із двома висувними шухлядами для дому та офісу.",
+    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Журнальний столик «Модена»",
+    "category": "Столи",
+    "price": 4300,
+    "description": "Мінімалістичний столик для вітальні зі стійким до подряпин покриттям.",
+    "image": "https://images.unsplash.com/photo-1533090481720-856c6e3c1fdc?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 6,
+    "name": "Стілець обідній «Венге»",
+    "category": "Стільці",
+    "price": 2450,
+    "description": "Легкий дерев'яний стілець із вигнутою спинкою для комфортної посадки.",
+    "image": "https://images.unsplash.com/photo-1592078615290-033ee584e267?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 7,
+    "name": "Ліжко двоспальне «Берген»",
+    "category": "Спальня",
+    "price": 18900,
+    "description": "Спальне місце 160×200 см, ортопедичні ламелі та м'яке узголів'я.",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 8,
+    "name": "Комод «Атланта» 4 шухляди",
+    "category": "Шафи та зберігання",
+    "price": 9800,
+    "description": "Місткий комод із системою плавного закривання та фасадами без ручок.",
+    "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 9,
+    "name": "Гардеробна система «Сіті»",
+    "category": "Шафи та зберігання",
+    "price": 16400,
+    "description": "Модульна система зберігання з полицями, штангою для одягу та висувними кошиками.",
+    "image": "https://images.unsplash.com/photo-1558997519-83ea9252edf8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 10,
+    "name": "Підвісний світильник «Аура»",
+    "category": "Освітлення",
+    "price": 3150,
+    "description": "Матовий металевий плафон із теплим розсіяним світлом для кухні або вітальні.",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 11,
+    "name": "Диван прямий «Велюр Люкс»",
+    "category": "Дивани та крісла",
+    "price": 19800,
+    "description": "Тримісний диван із м'якого велюру, посилений каркас та ніша для білизни.",
+    "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 12,
+    "name": "Пуф круглий «Мілан»",
+    "category": "Дивани та крісла",
+    "price": 2950,
+    "description": "Компактний м'який пуф для передпокою або вітальні з прихованим відділенням усередині.",
+    "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 13,
+    "name": "Крісло-гойдалка «Осло»",
+    "category": "Дивани та крісла",
+    "price": 11400,
+    "description": "Класичне крісло для відпочинку на вигнутих полозах із березової фанери.",
+    "image": "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 14,
+    "name": "Стіл кухонний розкладний «Бріз»",
+    "category": "Столи",
+    "price": 10900,
+    "description": "Розкладається зі 120 до 160 см, вологостійка стільниця з ламінованого МДФ.",
+    "image": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 15,
+    "name": "Консольний столик «Атріум»",
+    "category": "Столи",
+    "price": 5400,
+    "description": "Вузький столик у передпокій або під дзеркало з тонким металевим каркасом.",
+    "image": "https://images.unsplash.com/photo-1532372576444-dda954194ad0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 16,
+    "name": "Стілець барний «Індустріал»",
+    "category": "Стільці",
+    "price": 3200,
+    "description": "Високий барний стілець із підніжкою та сидінням з екошкіри для кухонного острова.",
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 17,
+    "name": "Офісне крісло «ЕргоПро»",
+    "category": "Стільці",
+    "price": 6800,
+    "description": "Сітчаста дихаюча спинка, поперекова підтримка та регулювання висоти підлокітників.",
+    "image": "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 18,
+    "name": "Стілець м'який «Флоренція»",
+    "category": "Стільці",
+    "price": 3650,
+    "description": "Обідній стілець із оксамитовою оббивкою та декоративною прострочкою на спинці.",
+    "image": "https://images.unsplash.com/photo-1551298370-9d3d53740c72?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 19,
+    "name": "Тумба приліжкова «Сорренто»",
+    "category": "Спальня",
+    "price": 3400,
+    "description": "Компактна тумба з двома висувними шухлядами та відкритою полицею для книг.",
+    "image": "https://images.unsplash.com/photo-1532372320572-cda25653a26d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 20,
+    "name": "Матрац ортопедичний «Комфорт Плюс»",
+    "category": "Спальня",
+    "price": 11200,
+    "description": "Розмір 160×200 см, незалежний пружинний блок Pocket Spring та шар піни з ефектом пам'яті.",
+    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 21,
+    "name": "Туалетний столик із дзеркалом «Белла»",
+    "category": "Спальня",
+    "price": 8450,
+    "description": "Елегантний столик із круглим дзеркалом та органайзером для косметики.",
+    "image": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 22,
+    "name": "Стелаж книжковий «Берлін»",
+    "category": "Шафи та зберігання",
+    "price": 6200,
+    "description": "Відкритий 5-ярусний стелаж у стилі лофт для книг, декору та кімнатних рослин.",
+    "image": "https://images.unsplash.com/photo-1594620302200-9a762244a156?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 23,
+    "name": "Тумба під телевізор «Модерн»",
+    "category": "Шафи та зберігання",
+    "price": 7900,
+    "description": "Ширина 180 см, два закриті відділення та отвори для акуратного прокладання кабелів.",
+    "image": "https://images.unsplash.com/photo-1585412727339-54e4bae3bbf9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 24,
+    "name": "Торшер підлоговий «Луна»",
+    "category": "Освітлення",
+    "price": 4100,
+    "description": "Високий торшер із лляним абажуром та стійкою мармуровою основою.",
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 25,
+    "name": "Настільна лампа «Сфера»",
+    "category": "Освітлення",
+    "price": 1950,
+    "description": "Лампа з матовим скляним плафоном і сенсорним регулятором яскравості.",
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=600&q=80"
+  }
+]
