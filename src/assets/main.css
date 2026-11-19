@@ -132,6 +132,7 @@ img {
 
 .hero {
   margin-bottom: 24px;
+  text-align: center;
 }
 
 .hero h1 {
@@ -318,6 +319,39 @@ img {
 
 .btn-in-cart:hover {
   background: #24573d;
+}
+
+.card-qty-control {
+  display: inline-flex;
+  align-items: center;
+  background: var(--success);
+  color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-qty-btn {
+  width: 34px;
+  height: 36px;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.card-qty-btn:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.card-qty-value {
+  padding: 0 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-width: 48px;
+  text-align: center;
 }
 
 .btn-secondary {
@@ -573,6 +607,36 @@ img {
   margin-top: 4px;
   font-size: 0.8rem;
   color: var(--danger);
+}
+
+.payment-methods {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.payment-option {
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.payment-option:hover {
+  border-color: var(--accent);
+}
+
+.payment-option.active {
+  border-color: var(--accent);
+  background: #f5ece5;
+  color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
 }
 
 .checkout-actions {

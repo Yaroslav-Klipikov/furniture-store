@@ -10,7 +10,7 @@ defineProps({
   }
 })
 
-const emit = defineEmits(['add-to-cart'])
+const emit = defineEmits(['add-to-cart', 'decrement'])
 
 const formatPrice = (price) => {
   return price.toLocaleString('uk-UA') + ' ₴'
@@ -40,13 +40,34 @@ const handleImageError = (event) => {
 
       <div class="product-footer">
         <span class="product-price">{{ formatPrice(product.price) }}</span>
+
+        <div v-if="quantityInCart > 0" class="card-qty-control">
+          <button
+            type="button"
+            class="card-qty-btn"
+            aria-label="Зменшити кількість"
+            @click="emit('decrement', product.id)"
+          >
+            −
+          </button>
+          <span class="card-qty-value">{{ quantityInCart }} шт.</span>
+          <button
+            type="button"
+            class="card-qty-btn"
+            aria-label="Збільшити кількість"
+            @click="emit('add-to-cart', product)"
+          >
+            +
+          </button>
+        </div>
+
         <button
+          v-else
           type="button"
           class="btn-primary"
-          :class="{ 'btn-in-cart': quantityInCart > 0 }"
           @click="emit('add-to-cart', product)"
         >
-          {{ quantityInCart > 0 ? `У кошику (${quantityInCart}) +` : 'У кошик' }}
+          У кошик
         </button>
       </div>
     </div>

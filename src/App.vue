@@ -1,7 +1,10 @@
-ї<script setup>
+<script setup>
+
 import { ref, computed, watch, onMounted } from 'vue'
 import ProductCard from './components/ProductCard.vue'
 import CartItem from './components/CartItem.vue'
+
+
 
 const STORAGE_KEY = 'domus_furniture_cart'
 
@@ -40,8 +43,10 @@ const orderSuccess = ref(false)
 const checkoutForm = ref({
   name: '',
   phone: '',
-  address: ''
+  address: '',
+  paymentMethod: 'apple-pay'
 })
+
 const formErrors = ref({
   name: '',
   phone: '',
@@ -307,16 +312,18 @@ const formatPrice = (price) => {
       </div>
 
       <!-- Сітка товарів -->
-      <section v-else class="catalog-grid">
+    <section v-else class="catalog-grid">
         <ProductCard
           v-for="product in filteredProducts"
           :key="product.id"
           :product="product"
           :quantity-in-cart="getQuantityInCart(product.id)"
           @add-to-cart="addToCart"
+          @decrement="decrementItem"
         />
       </section>
     </main>
+
 
     <!-- Футер -->
     <footer class="footer">
@@ -435,6 +442,44 @@ const formatPrice = (price) => {
             >
               <h3>Дані для доставки</h3>
 
+              <div class="form-group">
+                <label>Спосіб оплати</label>
+                <div class="payment-methods">
+                  <button
+                    type="button"
+                    class="payment-option"
+                    :class="{ active: checkoutForm.paymentMethod === 'apple-pay' }"
+                    @click="checkoutForm.paymentMethod = 'apple-pay'"
+                  >
+                     Apple Pay
+                  </button>
+                  <button
+                    type="button"
+                    class="payment-option"
+                    :class="{ active: checkoutForm.paymentMethod === 'google-pay' }"
+                    @click="checkoutForm.paymentMethod = 'google-pay'"
+                  >
+                    G Pay
+                  </button>
+                  <button
+                    type="button"
+                    class="payment-option"
+                    :class="{ active: checkoutForm.paymentMethod === 'visa' }"
+                    @click="checkoutForm.paymentMethod = 'visa'"
+                  >
+                    VISA
+                  </button>
+                  <button
+                    type="button"
+                    class="payment-option"
+                    :class="{ active: checkoutForm.paymentMethod === 'mastercard' }"
+                    @click="checkoutForm.paymentMethod = 'mastercard'"
+                  >
+                    Mastercard
+                  </button>
+                </div>
+              </div>
+              
               <div class="form-group">
                 <label for="customer-name">Ім’я та прізвище</label>
                 <input
